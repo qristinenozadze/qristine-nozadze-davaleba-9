@@ -1,0 +1,146 @@
+header {
+     height: 84px;
+    display: flex;
+    align-items: center;
+}
+.container {
+    width: 1240px;
+    margin: 0 auto;
+}
+.myflex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav {
+    display: inline-block;
+}
+ul {
+    display: flex;
+    gap: 50px;
+}
+li a {
+    color: #636060;
+    font-family: Helvetica;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.s1{
+    background-image: url(../images/Rectangle\ 1\ \(2\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 606px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 84px;
+}
+.infodiv{
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 31px;
+}
+.infodiv h1 {
+    color: #fff;
+    font-family: Helvetica;
+    font-size: 79px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.infodiv h5 {
+    color: #fff;
+    font-family: Helvetica;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.s2 {
+    margin-bottom: 100px;
+}
+
+.containermyflex3 {
+    width: 1300px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.infowrapper{
+    width: 235px;
+}
+
+
+.infowrapper h4 {
+    color: #636060;
+    font-family: Helvetica;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+.infowrapper h3 {
+    color: #010101;
+    font-family: Helvetica;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 37px;
+}
+
+.infowrapper p {
+    color: #636060;
+    font-family: Helvetica;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.cardwrapper {
+    width: 924px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    row-gap: 56px;
+}
+
+.card {
+    width: 286px;
+}
+
+.card img {
+    width: 100%;
+    margin-bottom: 23px;
+}
+
+.card h3 {
+    color: #343232;
+    font-family: Helvetica;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #636060;
+    font-family: Helvetica;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
